@@ -23,3 +23,10 @@ Power on the system:
 ~~~
 # python3 ./wsman-amt -H <hostname> -U <username> -P <password> power on
 ~~~
+
+Return the serial console status:
+~~~
+# python3 ./wsman-amt.py -H <hostname> -U <username> -P <password> serial status
+Intel(r) AMT Redirection Service: SOL is enabled and IDER is disabled, Listener is enabled
+~~~
+
